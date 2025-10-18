@@ -1,0 +1,74 @@
+<!DOCTYPE html 
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Reservation Hotel Room</title>
+</head>
+<body>
+    <h1>Reservation Hotel Room</h1>
+
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Personal Data</legend>
+            <p>1. Name<br />
+            <input type="text" name="name" /></p>
+
+            <p>2. Gender<br />
+            <input type="text" name="gender" /></p>
+
+            <p>3. Email Address<br />
+            <input type="email" name="email" /></p>
+
+            <p>4. Telp Number<br />
+            <input type="text" name="telp" /></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Reservation Room Form</legend>
+            <p>1. Reservation Name<br />
+            <input type="text" name="reservation_name" /></p>
+
+            <p>2. Booking Date<br />
+            <input type="date" name="booking_date" /></p>
+
+            <p>3. Room Type<br />
+            <select name="room_type">
+                <option value="deluxe">Deluxe</option>
+                <option value="superior">Superior</option>
+                <option value="suite">Suite</option>
+            </select></p>
+
+            <p>4. Bed Type<br />
+            <select name="bed_type">
+                <option value="single">Single bed</option>
+                <option value="double">Double bed</option>
+                <option value="twin">Twin bed</option>
+            </select></p>
+
+            <p>5. Breakfast<br />
+            <input type="radio" name="breakfast" value="with" /> With Breakfast
+            <input type="radio" name="breakfast" value="without" /> Without Breakfast</p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Payment</legend>
+            <p>1. Check in date<br />
+            <input type="date" name="check_in" /></p>
+
+            <p>2. Check out date<br />
+            <input type="date" name="check_out" /></p>
+
+            <p>3. Payment Method<br />
+            <select name="payment">
+                <option value="cash">Cash</option>
+                <option value="credit">Credit Card</option>
+                <option value="transfer">Bank Transfer</option>
+            </select></p>
+        </fieldset>
+
+        <p><input type="submit" value="Submit" /></p>
+    </form>
+</body>
+</html>
